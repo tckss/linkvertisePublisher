@@ -50,4 +50,3 @@ xsrf_key и session_key можно достать, нажав правой кн�
       **Discord - tkcs#3802
       Telegram - @tkcsWR**
       **Почта - NicolasSsh@yandex.ru**
-   4. Спасибо за покупку!
