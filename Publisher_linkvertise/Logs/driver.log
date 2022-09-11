@@ -1,0 +1,186 @@
+[1661876384.521][INFO]: Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 53845
+[1661876384.521][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1661876384.917][INFO]: [03d5679a7462e447985c821c44653885] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "--start-maximized", "--log-level=3", "--disable-logging", "--no-sandbox", "--disable-crash-reporter", "--window-size=1920,1080" ],
+            "excludeSwitches": [ "enable-logging" ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1661876384.921][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1661876384.922][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1661876384.924][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-crash-reporter --disable-default-apps --disable-hang-monitor --disable-logging --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --log-level=3 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" --user-data-dir="C:\Users\Admin\AppData\Local\Temp\scoped_dir1988_2041789050" --window-size=1920,1080 data:,
+[1661876385.666][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+[1661876385.672][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1661876385.677][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "104.0.5112.102",
+      "chrome": {
+         "chromedriverVersion": "103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262})",
+         "userDataDir": "C:\\Users\\Admin\\AppData\\Local\\Temp\\scoped_dir1988_2041789050"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53848"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "03d5679a7462e447985c821c44653885"
+}
+[1661876385.679][INFO]: [03d5679a7462e447985c821c44653885] COMMAND MaximizeWindow {
+}
+[1661876385.679][INFO]: Waiting for pending navigations...
+[1661876385.682][INFO]: Done waiting for pending navigations. Status: ok
+[1661876385.683][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1661876385.804][INFO]: Waiting for pending navigations...
+[1661876385.805][INFO]: Done waiting for pending navigations. Status: ok
+[1661876385.805][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE MaximizeWindow {
+   "height": 1048,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1661876385.806][INFO]: [03d5679a7462e447985c821c44653885] COMMAND Navigate {
+   "url": "https://publisher.linkvertise.com/dashboard"
+}
+[1661876385.806][INFO]: Waiting for pending navigations...
+[1661876385.807][INFO]: Done waiting for pending navigations. Status: ok
+[1661876386.220][INFO]: Waiting for pending navigations...
+[1661876387.816][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.816][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE Navigate
+[1661876387.818][INFO]: [03d5679a7462e447985c821c44653885] COMMAND DeleteAllCookies {
+}
+[1661876387.818][INFO]: Waiting for pending navigations...
+[1661876387.819][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.849][INFO]: Waiting for pending navigations...
+[1661876387.850][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.850][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE DeleteAllCookies
+[1661876387.851][INFO]: [03d5679a7462e447985c821c44653885] COMMAND AddCookie {
+   "cookie": {
+      "domain": "publisher.linkvertise.com",
+      "expirationDate": 2147483648.0,
+      "id": 1,
+      "name": "laravel_session",
+      "path": "/",
+      "session": "false",
+      "storeId": "0",
+      "value": "koENbwkJ06h5CGcCd6nRMhwyNMupmQVAUDTAqZFy"
+   }
+}
+[1661876387.851][INFO]: Waiting for pending navigations...
+[1661876387.852][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.853][INFO]: Waiting for pending navigations...
+[1661876387.854][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.854][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE AddCookie
+[1661876387.854][INFO]: [03d5679a7462e447985c821c44653885] COMMAND AddCookie {
+   "cookie": {
+      "domain": "publisher.linkvertise.com",
+      "expirationDate": 2147483648.0,
+      "id": 2,
+      "name": "XSRF-TOKEN",
+      "path": "/",
+      "session": "false",
+      "storeId": "0",
+      "value": "eyJpdiI6ImNHcnU5ekZINEJLMS9WdDl0Q2lKekE9PSIsInZhbHVlIjoiOTRITDVoM1VIY1Vxb1h0SmJaOUNteFd4WjFzUHY2b3hXRDdCdGxzSm1GbjZnS1B3RlBqV1YrdmxwM01DTEVkUUVWaitNSGd2WVpUV3NYdVMzZmoxeGhKYTg4Qitma0liQ2FwSGZ1SHE0MnZDMXkxN3BuSW11dGgrNkFMN1dzYS8iLCJtYWMiOiI3MDI3NDE1YzM4NDc0OTMzNTM0MDQwYTg4NGQxYTJiYTJhZDdlMDgxNTQ2NTVjMGYyMTEzZTVjZWI5MWYyOWNlIiwidGFnIjoiIn0%3D"
+   }
+}
+[1661876387.854][INFO]: Waiting for pending navigations...
+[1661876387.855][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.857][INFO]: Waiting for pending navigations...
+[1661876387.857][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.857][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE AddCookie
+[1661876387.858][INFO]: [03d5679a7462e447985c821c44653885] COMMAND Refresh {
+}
+[1661876387.858][INFO]: Waiting for pending navigations...
+[1661876387.858][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.859][INFO]: Waiting for pending navigations...
+[1661876387.860][INFO]: Done waiting for pending navigations. Status: ok
+[1661876387.860][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE Refresh
+[1661876387.926][INFO]: [03d5679a7462e447985c821c44653885] COMMAND QuitAll {
+}
+[1661876387.983][INFO]: [03d5679a7462e447985c821c44653885] RESPONSE QuitAll
